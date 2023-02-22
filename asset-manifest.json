@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/KharlanEd/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/KharlanEd/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.css": "/KharlanEd/goit-react-hw-01-components/static/css/main.b7e2aca7.css",
+    "main.js": "/KharlanEd/goit-react-hw-01-components/static/js/main.fcb7015e.js",
     "index.html": "/KharlanEd/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/KharlanEd/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/KharlanEd/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.b7e2aca7.css.map": "/KharlanEd/goit-react-hw-01-components/static/css/main.b7e2aca7.css.map",
+    "main.fcb7015e.js.map": "/KharlanEd/goit-react-hw-01-components/static/js/main.fcb7015e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.b7e2aca7.css",
+    "static/js/main.fcb7015e.js"
   ]
 }
