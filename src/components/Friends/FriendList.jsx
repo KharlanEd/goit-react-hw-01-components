@@ -1,28 +1,14 @@
-import PropTypes from 'prop-types';
-import { BiCircle } from "react-icons/bi";
+
+import friends from 'path/friends.json'
 import  css  from 'components/Friends/Friends.module.css';
-import { Isonline } from "./friends.styled";
+
+import { FriendListItem } from './FriendListItem';
 
 
-export const FriendList = ({ friends }) => {
+export const FriendList = () => {
 return (<ul className={css.friend_list}>
-        {friends.map(({ id, avatar, name, isOnline }) =>
-        (<li className={css.item} key={id}> 
-         
-        <Isonline isActive ={isOnline === true}><BiCircle/></Isonline>  
-         <img  src={avatar} alt="User avatar" width="48" />
-            <p >{name}</p>
-</li>)
-        )}
+    <FriendListItem friends={friends} />
     </ul>)
 }
 
 
-FriendList.propTypes = {
-    friends: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        avatar: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        isOnline:PropTypes.bool.isRequired 
-    })) 
-}
